@@ -36,7 +36,7 @@ if not game:IsLoaded() then
     notLoaded:Destroy()
 end
 
-currentVersion = "1.1"
+currentVersion = "1.1.1"
 
 Holder = Instance.new("Frame")
 Title = Instance.new("TextLabel")
@@ -12601,7 +12601,7 @@ end
 IYMouse.Move:Connect(checkTT)
 
 task.spawn(function()
-	local success, latestVersionInfo = "1.1"
+	local success, latestVersionInfo = "1.1.1"
 
 	if success then
 
